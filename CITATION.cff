@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this record, please cite it as below."
+title: "Universal Information Structure Analysis: Toward Carrier-Agnostic Discovery of Recoverable Structure in Digital Artifacts"
+version: "1.0.0"
+date-released: "2026-10-19"
+license: CC-BY-NC-ND-4.0
+repository-code: "https://github.com/pvjournal/uisa"
+authors:
+  - family-names: Choudhary
+    given-names: Abhishek
+    affiliation: AyeAI
+    orcid: "https://orcid.org/0009-0002-0684-8320"
+keywords: [information structure, representation discovery, minimum description length, atypicality, multimodal signals, universal steganalysis, inverse problems, canonical representation, information theory, signal processing]
+preferred-citation:
+  type: report
+  title: "Universal Information Structure Analysis: Toward Carrier-Agnostic Discovery of Recoverable Structure in Digital Artifacts"
+  authors:
+    - family-names: Choudhary
+      given-names: Abhishek
+      affiliation: AyeAI
+      orcid: "https://orcid.org/0009-0002-0684-8320"
+  year: 2026
+  month: 10

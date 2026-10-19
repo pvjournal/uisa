@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UISA · Universal Information Structure Analysis · AyeAI</title>
+<meta name="description" content="Universal Information Structure Analysis: toward carrier-agnostic discovery of recoverable structure in digital artifacts. A living research record by Abhishek Choudhary, AyeAI.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔎</text></svg>">
+<style>
+:root { --bg:#fbfaf7; --fg:#1b1b1b; --mut:#666; --card:#fff; --line:#e3dfd6; --acc:#1f4e8c; --ok:#1f7a3a; --run:#a86a00; --open:#6b6b6b; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg:#121212; --fg:#ececec; --mut:#a3a3a3; --card:#1c1c1c; --line:#333; --acc:#8ab4f8; --ok:#5cc27a; --run:#e0a640; --open:#9a9a9a; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px); }
+main { max-width: 860px; margin: 0 auto; padding: 24px 18px 60px; }
+h1 { font: 700 clamp(26px, 5vw, 40px)/1.15 Georgia, serif; margin: 20px 0 8px; }
+h2 { font: 700 22px/1.3 Georgia, serif; margin: 32px 0 8px; }
+.mut { color: var(--mut); } .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 14px 0; }
+.wrap { overflow-x: auto; } table { border-collapse: collapse; width: 100%; } td, th { border-bottom: 1px solid var(--line); padding: 7px 8px; text-align: left; vertical-align: top; }
+th { color: var(--mut); font-weight: 600; font-size: 14px; }
+.state { display: inline-block; font-size: 12px; font-weight: 700; text-transform: uppercase; border: 1px solid currentColor; border-radius: 6px; padding: 1px 7px; white-space: nowrap; }
+.defined, .open { color: var(--open); } .stated { color: var(--run); }
+a.button { display: inline-block; background: var(--acc); color: #fff; text-decoration: none; padding: 10px 16px; border-radius: 10px; font-weight: 600; }
+code { font-size: 14px; word-break: break-all; } ol li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<p class="mut">AyeAI · living research record · October 2026 · version 1.0.0</p>
+<h1>Universal Information Structure Analysis</h1>
+<p><b>Toward carrier-agnostic discovery of recoverable structure in digital artifacts.</b> Abhishek Choudhary.</p>
+<p><a class="button" href="../UISA_Living_Research_Record.pdf">Read the record (PDF, 18 pages)</a></p>
+
+<h2>The question</h2>
+<p>Can an automated system discover statistically defensible, representation-independent evidence of recoverable
+information structure in arbitrary digital artifacts, and progressively infer the representation or channel through
+which that structure can be decoded?</p>
+<p>An observable artifact does not come with its representation system attached. A byte sequence can be text, samples,
+pixels, instructions or records; a dancer's performance can carry information in joint angles, gaze, stage position or
+timing against the music. UISA asks which representation makes the information-bearing structure recoverable, without
+assuming the carrier, the alphabet, the synchronisation or the modality in advance.</p>
+
+<h2>What the record contains</h2>
+<ol>
+<li>The inverse problem stated, and why information is not identical to its carrier.</li>
+<li>Related work: Shannon information theory, minimum description length, algorithmic information, atypicality, universal and multimodal steganalysis, representation learning, blind source separation.</li>
+<li>A conceptual model from artifact to canonical information, and five propositions with proofs: finite-family error control, a complexity-weighted discovery bound, recoverability requiring retained information, search order as a resource variable, and residual search.</li>
+<li>Statistical foundations and the null-model problem; the architecture (detect, represent, localise the channel, decode, validate, subtract, search again).</li>
+<li>A prototype and its benchmark, a negative result and what it means, representation discovery as the core problem, multiplexed and hierarchical channels, arbitrary alphabets.</li>
+<li>Human and AI research method and accountability, computational complexity, limitations, a roadmap, and appendices on reproduction, data schema, provenance and responsible research.</li>
+</ol>
+
+<h2>Recorded results, and their evidence state here</h2>
+<div class="card">The record is deposited exactly as its author wrote it, and its claims are kept as stated. Beside each, its
+evidence state in this deposit: the source package and the benchmark JSON the record describes are not part of this
+deposit, so its numbers are shown as stated in the record and have not been re-executed here.</div>
+<div class="wrap"><table>
+<tr><th>Item</th><th>Recorded value</th><th>State here</th></tr>
+<tr><td>Unit tests</td><td>2 passed</td><td><span class="state stated">stated in the record</span></td></tr>
+<tr><td>Motion, null against structured (mean maximum z-score)</td><td>2.044 ± 0.386 against 2.058 ± 0.475</td><td><span class="state stated">stated in the record</span></td></tr>
+<tr><td>Audio, null against structured</td><td>0.797 ± 0.639 against 1.135 ± 0.878</td><td><span class="state stated">stated in the record</span></td></tr>
+<tr><td>Random forest, held out</td><td>accuracy 0.825, ROC-AUC 0.9163</td><td><span class="state stated">stated in the record</span></td></tr>
+<tr><td>Benchmark SHA-256</td><td><code>462d3f88ef60e035d220e784bb1bc3d1cfb8c4b6e380ea8c6e4cedfb627a1e43</code></td><td><span class="state stated">stated in the record</span></td></tr>
+<tr><td>The five propositions</td><td>proved in section 4A</td><td><span class="state defined">defined, with proofs</span></td></tr>
+<tr><td>The prototype source package</td><td>listed in section 7 and appendix A</td><td><span class="state open">open: not in this deposit</span></td></tr>
+</table></div>
+<p class="mut">The record itself states its scope: the current evidence establishes a reproducible proof of concept, not a
+universal decoder, and the learned baseline's train and test sets share a generator family.</p>
+
+<h2>Cite</h2>
+<p>Choudhary, A. (2026). <i>Universal Information Structure Analysis: Toward Carrier-Agnostic Discovery of Recoverable
+Structure in Digital Artifacts</i>. AyeAI, living research record, version 1.0.0. See <code>CITATION.cff</code>.</p>
+
+<p class="mut" style="margin-top:40px; font-size:14px">© 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI. The record is
+licensed under CC BY-NC-ND 4.0. AyeAI®, AyeCNSe® and AyeAM® are registered trademarks of Abhishek Choudhary in India.</p>
+</main>
+</body>
+</html>
