@@ -12,6 +12,8 @@ modality in advance. The record states the problem, five propositions with proof
 localise the channel, decode, validate, subtract, search again), a prototype, its benchmark, a negative result and a
 roadmap.
 
+DOI: [10.5281/zenodo.23471398](https://doi.org/10.5281/zenodo.23471398)
+
 ## What this repository holds
 
 | File | What it is |

@@ -1,0 +1,30 @@
+{
+  "title": "Universal Information Structure Analysis: Toward Carrier-Agnostic Discovery of Recoverable Structure in Digital Artifacts",
+  "version": "1.0.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "cc-by-nc-nd-4.0",
+  "language": "eng",
+  "description": "Digital information is normally analysed inside a declared representation. Universal Information Structure Analysis (UISA) proposes a broader inverse problem: given an arbitrary digital artifact, determine whether it contains statistically significant, reproducible, potentially recoverable information-bearing structure, and discover a representation in which that structure becomes measurable or decodable without assuming the carrier, alphabet, synchronization rule or modality in advance. The record states the problem, five propositions with proofs, a layered architecture, a prototype with its benchmark and a negative result, and a research roadmap. Its numerical results are as stated in the record; the source package it describes is not part of this deposit.",
+  "creators": [
+    {
+      "name": "Choudhary, Abhishek",
+      "affiliation": "AyeAI",
+      "orcid": "0009-0002-0684-8320"
+    }
+  ],
+  "keywords": [
+    "information structure",
+    "representation discovery",
+    "minimum description length",
+    "atypicality",
+    "multimodal signals",
+    "universal steganalysis",
+    "inverse problems",
+    "canonical representation",
+    "information theory",
+    "signal processing"
+  ],
+  "repository": "https://github.com/pvjournal/uisa"
+}
